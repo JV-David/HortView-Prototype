@@ -1,1 +1,2 @@
-O código não foi carregado, tenho que pagar internet para tal! kkk
+O protótipo com interface gráfica feito usando a biblioteca streamlit:
+https://
