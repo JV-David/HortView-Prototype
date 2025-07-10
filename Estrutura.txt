@@ -1,0 +1,20 @@
+project/
+│
+├── app.py                # Arquivo principal do Streamlit
+├── config.py             # Configurações gerais
+├── styles.py             # Estilos CSS personalizados
+├── components/           # Componentes reutilizáveis
+│   ├── header.py         # Cabeçalho da aplicação
+│   ├── sidebar.py        # Barra lateral
+│   ├── metrics.py        # Componentes de métricas
+│   └── footer.py         # Rodapé
+├── pages/                # Páginas/abas da aplicação
+│   ├── original.py       # Gráfico original
+│   ├── seasonal.py       # Análise de sazonalidade
+│   ├── arima.py          # Modelo ARIMA
+│   ├── sarima.py         # Modelo SARIMA
+│   ├── adjusted.py       # SARIMA ajustado
+│   └── comparison.py     # Comparação de modelos
+└── utils/                # Utilitários
+    ├── data_loader.py    # Carregamento de dados
+    └── charts.py         # Funções de gráficos
