@@ -29,4 +29,4 @@ for i, item in enumerate(dados.index[:4]):
     axes[linhas[i], colunas[i]].legend() 
     axes[linhas[i], colunas[i]].grid(True, linestyle='--', alpha=0.5) 
 plt.tight_layout() 
-plt.show() 
+plt.show()

@@ -27,7 +27,7 @@ def arima_forecast(data, order, steps):
     #Fazer previsões 
     forecast = model_fit.forecast(steps=steps) 
      
-    return forecast, model_fit 
+    return forecast, model_fit
  
 #Função para ajustar o modelo SARIMA 
 def sarima_forecast(data, order, seasonal_order, steps): 
