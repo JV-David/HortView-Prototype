@@ -1,2 +1,0 @@
-O protótipo com interface gráfica feito usando a biblioteca streamlit:
-https://
